@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  body {
+    @apply bg-paper text-ink;
+  }
+
+  * {
+    border-color: #E7E5E4;
+  }
+}
+
+@layer utilities {
+  .font-tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
